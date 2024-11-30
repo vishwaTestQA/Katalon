@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginCucumberWithRunnerClass</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce814a3b-fb38-4916-aede-8a512ae6fa6b</testCaseGuid>
+</TestCaseEntity>

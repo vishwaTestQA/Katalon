@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DropdownverifySuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>79339edd-b03d-4f07-be5e-0aac320f112c</testSuiteGuid>
+   <testCaseLink>
+      <guid>7dcf6480-c85b-43aa-a316-5cf2ac7bd897</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomKeywordsTestCase/VerifyDropDownItems</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>711306d0-6493-41ab-a612-5071fe98511b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataDrivenTwoExcel/TwoExcel_01</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>58cae94f-6068-4fca-9bcb-39c72e05440b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataDrivenTwoExcel/TwoExcel_02</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>58cae94f-6068-4fca-9bcb-39c72e05440b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>4ed9b16b-0759-4ff8-9b0e-d30377afc732</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>58cae94f-6068-4fca-9bcb-39c72e05440b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>70e61f92-6fa8-48dc-98f6-f14facf49321</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>711306d0-6493-41ab-a612-5071fe98511b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>ca1c85a8-6a6f-4124-8ccc-e2e428b21137</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>711306d0-6493-41ab-a612-5071fe98511b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comments</value>
+         <variableId>14d3abd2-180d-4a2b-8112-90cf4c650ecc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
